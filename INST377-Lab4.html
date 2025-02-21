@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <title>INST377 - Lab 4</title>
+    <link rel="stylesheet" href="lab4styles.css">
+</head>
+<body>
+    <h1>INST377 Lab 4 HTML CSS JS</h1> <!-- use in JS query selector -->
+    <div class="container">
+
+        <!-- Row 1 contains name and color -->
+        <div class = "row">
+            <!-- Alert me -->
+            <div class="section">
+                <form id="nameForm" onsubmit="return false;">
+                    <label for="nameInput">Name:</label>
+                    <input type="text" id="nameInput" required>
+                    <button type="submit" id = "alertButton">Alert Me!</button>
+                </form>
+            </div>
+
+            <!-- Change color -->
+            <div class="section">
+                <button id="colorButton">Change Color</button>
+            </div>
+        </div>
+
+        <!-- Row 2 contains text input and add text-->
+        <div class = "row">
+        <!-- Validate text section -->
+            <div class="section">
+                <form id="textValidator" onsubmit="return false;">
+                    <label for="textInput">Text Tester:</label>
+                    <input type="text" id="textInput">
+                    <button type = "submit" id="validateButton">Validate Text</button>
+                    
+                </form>
+            </div>
+
+            <!-- Add text section -->
+            <div class="section">
+                <button id="addTextButton">Add Text</button>
+                <!-- <p id="addedText"></p> -->
+            </div>
+        </div>
+
+    </div>
+
+    <script src="lab4script.js"></script>
+</body>
+</html>

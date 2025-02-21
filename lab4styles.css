@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightseagreen; /* must be referenced in JS */
+    /* default: lightseagreen */
+}
+
+.container {
+    width: 15000px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 20px;
+    
+}
+
+.section {
+    background-color: skyblue;
+    padding: 10px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    width: 700px;
+    margin: 15px;
+    float: left;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    clear: both;
+}
+
+button {
+    background-color: seagreen;  
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkolivegreen;
+}
+
+input {
+    padding: 5px;
+}
